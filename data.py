@@ -62,4 +62,3 @@ with mp_hands.Hands(
                     
     # cap.release()
     cv2.destroyAllWindows()
-
