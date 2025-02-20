@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EAE4D2;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #EAE4D2;
+    color: #17726D;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #17726D;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover; /* Replace with your image */
+    color: #000;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(25% - 40px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background: #EAE4D2;
+    padding: 40px 20px;
+}
+
+.testimonial {
+    margin: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background: #17726D;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.quick-links a, .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Accessibility Options */
+.accessibility-options {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.accessibility-options button {
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .service-card {
+        width: 100%;
+    }
+
+    #hero h2 {
+        font-size: 1.8em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+}
