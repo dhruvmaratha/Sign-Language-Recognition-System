@@ -1,8 +1,8 @@
 #import dependency
-import cv2
+import cv2 # type: ignore
 import numpy as np
 import os
-import mediapipe as mp
+import mediapipe as mp # type: ignore
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
