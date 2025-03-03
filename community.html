@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #EAE4D2;
             color: #333;
         }
         header {
@@ -22,7 +22,7 @@
         section {
             padding: 20px;
             margin: 20px;
-            background: white;
+            background: #fff9e8;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -35,15 +35,6 @@
         }
         li {
             margin: 10px 0;
-        }
-        footer {
-            background: #17726D;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            width: 100%;
-            margin-top: auto;
-            position: relative;
         }
 
         .quick-links, .social-media, .contact-info {
@@ -96,6 +87,7 @@
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 10px;
+        
         }
 
         .faq-question::after {
@@ -109,6 +101,21 @@
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="image/voice.png" alt="Logo"> <!-- Replace 'logo.png' with your actual logo file -->
+          </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="homepage.html">About Us</a></li>
+            <li><a href="translate.html">Services</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="homepage.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
 
 <header>
     <h1>Join Our Community</h1>
@@ -201,24 +208,37 @@
     });
 </script>
 <footer>
-    <div class="quick-links">
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
-        <a href="#faqs">FAQs</a>
-    </div>
-    <div class="social-media">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
-    </div>
-    <div class="contact-info">
-        <p>Email: support@visualvoice.com</p>
-        <p>Phone: 9638467650</p>
-    </div>
-    <p>© 2025 Visual Voice. All rights reserved.</ p>
-</footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+            </ul>
+        </div>
 
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="image/facebook (1).png" alt="Facebook"></a>
+                <a href="#"><img src="image/twitter (1).png" alt="Twitter"></a>
+                <a href="#"><img src="image/instagram (1).png" alt="Instagram"></a>
+                <a href="#"><img src="image/linkedin (1).png" alt="LinkedIn"></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:support@visualvoice.com">support@visualvoice.com</a></p>
+            <p>Phone: <a href="tel:9638467650">9638467650</a></p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Visual Voice. All rights reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -8,38 +8,44 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
+    <nav class="navbar">
         <div class="logo">
-            <h1>Visual Voice</h1>
+            <img src="image/voice.png" alt="Logo"> <!-- Replace 'logo.png' with your actual logo file -->
+          </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="homepage.html">About Us</a></li>
+            <li><a href="translate.html">Services</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="homepage.html">Contact Us</a></li>
+          </ul>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+      </nav>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <h2>Bridging Communication Gaps</h2>
-        <p>Empowering Deaf and Hard-of-Hearing Individuals Through Sign Language Translation</p>
-        <a href="translate.html" class="cta-button">Get Started</a>
+    <section id="hero" class="section2">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="image/people.png" alt="Sign Language Communication">
+            </div>
+            <div class="hero-content">
+                <h2>Bridging Communication Gaps</h2>
+                <p>Empowering Deaf and Hard-of-Hearing Individuals Through Sign Language Translation</p>
+                <a href="translate.html" class="cta-button">Get Started</a>
+            </div>
+        </div>
     </section>
-
     <!-- About Us Section -->
-    <section id="about">
+    <section id="about" class="section2">
         <h2>Who We Are</h2>
         <p>At Visual Voice, we believe in a world where everyone can communicate freely. Our platform is dedicated to providing tools and resources that facilitate understanding between the deaf and hearing communities.</p>
     </section>
 
     <!-- Services Section -->
-    <section id="services">
+     
+    <section id="services" class="section1">
         <h2>Our Services</h2>
         <div class="service-card">
             <h3>Sign Language Translation</h3>
@@ -60,7 +66,7 @@
     </section>
 
     <!-- Resources Section -->
-    <section id="resources">
+    <section id="resources" class="section2">
         <h2>Helpful Resources</h2>
         <p>Links to articles, videos, and tools that assist in learning sign language.</p>
         <p>Recommended apps and software for translation and communication.</p>
@@ -68,14 +74,14 @@
     </section>
 
     <!-- Community Section -->
-    <section id="community">
+    <section id="community" class="section1">
         <h2>Join Our Community</h2>
         <p>Connect with others, share your experiences, and learn together. Our community is a safe space for everyone.</p>
-        <a href="#community" class="cta-button">Join Now</a>
+        <div style="padding: 10px;"><a href="#community" class="cta-button">Join Now</a></div>
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials">
+    <section id="testimonials" class="section2">
         <h2>What Our Users Say</h2>
         <div class="testimonial">
             <p>"Visual Voice has changed the way I communicate with my friends!" - Sarah, Deaf Advocate</p>
@@ -87,22 +93,36 @@
 
     <!-- Footer -->
     <footer>
-        <div class="quick-links">
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
-            <a href="#faqs">FAQs</a>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="image/facebook (1).png" alt="Facebook"></a>
+                    <a href="#"><img src="image/twitter (1).png" alt="Twitter"></a>
+                    <a href="#"><img src="image/instagram (1).png" alt="Instagram"></a>
+                    <a href="#"><img src="image/linkedin (1).png" alt="LinkedIn"></a>
+                </div>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:support@visualvoice.com">support@visualvoice.com</a></p>
+                <p>Phone: <a href="tel:9638467650">9638467650</a></p>
+            </div>
         </div>
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
+    
+        <div class="footer-bottom">
+            <p>© 2025 Visual Voice. All rights reserved.</p>
         </div>
-        <div class="contact-info">
-            <p>Email: support@visualvoice.com</p>
-            <p>Phone: 9638467650</p>
-        </div>
-        <p>© 2025 Visual Voice. All rights reserved.</ p>
     </footer>
 
 </body>
